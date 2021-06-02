@@ -1,0 +1,17 @@
+package com.databank.project;
+
+public class DataBank {
+
+	public static void main(String[] args) {
+		var cc1 = new ContaCorrente();
+		cc1.setSaldo(500f);
+		cc1.depositar(500);
+		cc1.transferir(, 0);
+		
+		var cc2 = new ContaCorrente();
+		cc1.setSaldo(300f);
+		
+
+	}
+
+}

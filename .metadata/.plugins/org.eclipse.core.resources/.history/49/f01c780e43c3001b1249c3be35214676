@@ -1,0 +1,15 @@
+package com.databank.project;
+
+public class DataBank {
+
+	public static void main(String[] args) {
+		var cc1 = new ContaCorrente();
+		cc1.setSaldo(500f);
+		cc1.transferir(cc2, 200f);
+		
+		var cc2 = new ContaCorrente();
+		cc2.setSaldo(300f);
+
+	}
+
+}
